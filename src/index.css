@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-coral: #E07A5F; /* Main background of card */
+  --color-brand-blue: #1B527A;
+  --color-brand-red: #AF2D32;
+  --color-brand-green: #72B192;
+  --color-brand-yellow: #F0AF27;
+  --color-brand-lightblue: #4A8EB0;
+  
+  --font-sans: 'Quicksand', sans-serif;
+}
+
+body {
+  background-color: #E07A5F;
+  /* Simple puzzle pattern background for the edges, or we will handle it in the layout wrapper */
+  margin: 0;
+  font-family: var(--font-sans);
+}
